@@ -285,6 +285,22 @@
               event.preventDefault();
             }
             break;
+          // COMMA
+          case 91:
+            if (self.options.freeInput) {
+              self.add($input.val());
+              $input.val('');
+              event.preventDefault();
+            }
+            break;
+            // TAB
+          case 9:
+            if (self.options.freeInput) {
+              self.add($input.val());
+              $input.val('');
+              event.preventDefault();
+            }
+            break;
 
         }
 
