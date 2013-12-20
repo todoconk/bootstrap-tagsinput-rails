@@ -286,7 +286,7 @@
             }
             break;
           // COMMA
-          case 91:
+          case 188:
             if (self.options.freeInput) {
               self.add($input.val());
               $input.val('');
